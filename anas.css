@@ -1,0 +1,69 @@
+.anas{
+	text-align: right !important;
+	align-items: right !important;
+	color: blue !important;
+	margin: 12px !important;
+}
+.navbar{
+	background-color: #30dada !important;
+}
+.foot{
+	background-color: #30dada !important;
+	clear: both;
+	 position: relative;
+	 height: 40px;
+	 margin-top: -40px;
+ 
+  
+  text-align: center;
+
+}
+.container-fluid{
+	margin: 0px !important;
+	background-color: #89d4ea;
+	line-height: 30px;
+	text-align: center;
+	font-style: italic;
+}
+@keyframes heartBeat {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  14% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+
+  28% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  42% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+
+  70% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+.heartBeat {
+  -webkit-animation-name: heartBeat;
+  animation-name: heartBeat;
+  -webkit-animation-duration: 1.3s;
+  animation-duration: 1.3s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+}
+.container-fluid1{
+	background-color: #00ffb845;
+
+}
+.itr{
+	text-align: center;
+}
+	
